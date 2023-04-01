@@ -1,0 +1,771 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#navbar{
+   /* background-color:#555378 ;*/
+    background: #545379;
+
+    width:100%;
+    height:12vh;
+    position: fixed;
+    /*border-bottom: 0.5px solid #e0e8ff ;*/
+    box-shadow: #e0e8ff 0px 0px 2px 0px;
+    
+}
+
+.ulnav{
+    list-style-type: none;
+   
+   /* padding-left: 25px;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+
+}
+.linav{
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    padding-top: 2.5vh;
+    font-size: 2.5vh;
+   
+}
+#navbar a{
+    color:#e0e8ff;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#welcome-section{
+   
+    margin-left:auto;
+    margin-right:auto;
+    display: flex;
+    flex-direction:row;
+    width: 100%;
+   
+    background: radial-gradient(circle, rgba(250,213,229,1) 0%, rgba(148,187,233,1) 100%);
+    height: 100vh;
+   
+}
+#img1{
+    margin-top: 10vh;
+   object-fit: contain;
+   width: 50vw;
+   max-height:60vh;
+  
+
+}
+
+.h1{
+    font-size: 3vw;
+    color: #444363;
+    
+    font-family: 'Source Code Pro';
+    text-align: left;
+    margin-bottom:0vh;
+    width: 50vh;
+   
+  
+   
+}
+#text{
+    display: flex;
+    flex-direction: column;
+    width:50vh;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+    .h2{
+    font-size: 2vw;
+    color: #444363;
+    margin-left: 0vh;
+    font-family: "roboto";
+    text-align: left;
+    display: inline-block;
+    margin-top: 0.5vw;
+   
+   
+    }
+    
+    
+#anasayfa{
+    margin-top:auto;
+    margin-bottom:auto;
+   
+    
+   
+}
+
+#projects{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+   background: radial-gradient(circle, rgba(246,222,233,0.6403712296983759) 0%, rgba(189,202,244,1) 100%, rgba(188,202,244,1) 100%, rgba(116,128,167,1) 100%);
+
+
+ }
+ .project-tile{
+     
+     padding-top: 3vh;
+     background-repeat: no-repeat;
+     background-position: center;
+     width:10vw;
+     margin-left:5vw;
+     margin-right:5vw;
+     height: 15vh;
+     border-radius: 10px;
+     min-width:6vw;
+    
+    
+     
+   
+    
+}
+ #projects a{
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    font-family:'roboto';
+    font-size: 1.2vw;
+    font-weight: bold;
+    display: block;
+ }
+
+.projects-section,.projects-section1{
+    margin-top: 15vh;
+  
+    width:100%;
+    height:50vh;
+    display: flex;
+     flex-direction: row;
+    justify-content: space-around;
+
+}
+.projects-section1{
+    margin-top: 0vh;
+}
+#baslik{
+   
+    display: flex;
+    flex-direction:column;
+    width: 100%;
+    height: 10vh;
+    
+}
+#projects h2{
+    text-align: center;
+    color:#444363 ;
+    margin-top: 15vh;
+    font-family: "source code pro";
+    font-size:2vw;
+
+    
+}
+.img2{
+    margin-top: 0vh;
+    padding-top: 1vh;
+    width:8vw ;
+
+}
+
+.work1, .work2,.work3,.work4{
+    font-size: 2vh;
+    color:#647f9e ;
+    justify-content: center;
+    align-items: center;
+    font-style: bold;
+    display: block;
+
+}
+
+.work5, .work6,.work7,.work8{
+    font-size: 2vh;
+    color:#647f9e ;
+    font-style: bold;
+    justify-content: center;
+    align-items: center;
+
+}
+.project-tile a{
+  width: 100%;
+    height: 100%;
+   justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+#contact{
+    display: flex;
+    flex-direction:column;
+    height: 30vh;
+    width: 100%;
+    padding-left:-150px;
+  
+    background: #545379;
+
+   
+}
+#contact-link{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 3.5vh;
+}
+#lw{
+    margin-top: 2.5vh;
+    margin-left: 5vh;
+    margin-right: 5vw;
+   
+    font-family: 'Source Code Pro';
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size:1.8vw;
+    color: #e0e8ff;
+   
+}
+#fcc,#github,#linkedin,#email{
+    
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #e0e8ff;
+    min-width: 10vw;
+    height: 9vh;
+    background: #e0e8ff;
+    font-family: 'Hind Guntur';
+    font-size: 3vh;
+   
+}
+
+#github-logo{
+    width: 2.5vw;
+    height: 90%;
+}
+
+#contact a{
+    text-decoration: none;
+    color: #545379;
+    
+    font-size: 2.2vh;
+}
+#fccr{
+    width: 90%;
+    height: 1.5vh;
+}
+#rsm1{
+    width: 3vw;
+    height:90%;
+}
+#rsm2{
+    width: 2.5vw;
+    height: 80%;
+}
+
+@media screen and (max-device-width: 349px) {
+    .ulnav {
+        font-size: 1vh;
+        justify-content: space-evenly;
+        align-items: center;
+    
+
+    }
+    .ulnav a{
+        font-size: 3vh; 
+    }
+    .ulnav li{
+        padding: 0vh;
+        padding-top:3vh;
+    }
+
+    #welcome-section{
+        width: 63vh;
+        height: 88vh;
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+   
+    #text{
+        font-size: 3vh;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: 20vh;
+        text-align: left;
+        width: 90vw;
+        
+        
+    }
+     .h2{
+        font-size: 5vw;
+        margin-left: auto;
+        text-align:left;
+        margin-top:auto;
+        margin-bottom: auto;
+        margin-right: auto;
+        padding-left:1.5vh;
+        display:inline;
+    }
+    .h1{
+      text-align: left;
+      font-size: 5vw;
+      display: inline;
+      justify-content: center;
+        align-items: center;
+        margin-top: 0vh;
+        padding-left:1.5vh;
+    }
+    
+    #img1{
+        padding-left:6vh;
+        width:120vw ;
+        
+        
+       
+       
+    }
+    #projects{
+        width: 63vh;
+        height: 100vh;
+        
+    }
+    .projects-section,.projects-section1{
+        width: 50vh;
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        
+        
+    }
+    .img2{
+        width: 20vw;
+        margin-top: 0vh;
+        padding-top: 1vh;
+    }
+    #projects h2{
+        font-size: 3vh;
+        margin-top:15vh;
+        margin-bottom: 0vh;
+        padding-top: 0vh;
+        padding-bottom: 0vh;
+    }
+    #projects a{
+        font-size: 3.5vw;
+        margin-top: 0vh;
+        margin-bottom: 0vh;
+        padding-top: 0vh;
+        padding-bottom: 0vh;
+    }
+    .project-tile{
+        width: 5vh;
+        height: 10vh;
+        font-size: 1vh;
+    }
+    #contact{
+        width:63vh;
+        height: 25vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    #contact a{
+        font-size: 1.5vh;
+    }
+    #email,#linkedin,#github,#fcc{
+        margin: 2vh ;
+        width: 7vh;
+        height: 7vh;
+        align-items: center;
+        
+        
+    }
+    #rsm1,#rsm2,#github-logo{
+        width: 5vh;
+        height: 5vh;
+    }
+    #fccr{
+        width: 6vh;
+        height: 1vh;
+    }
+    #contact-link{
+     margin-top: 0vh;
+    } 
+}
+
+ 
+    
+
+@media screen and (min-device-width: 350px) and (max-device-width: 530px) {
+    .ulnav {
+        font-size: 4vh;
+        justify-content: space-evenly;
+        align-items: center;
+    
+
+    }
+    .ulnav a{
+        font-size: 4vh; 
+    }
+    .ulnav li{
+        padding: 0vh;
+    }
+
+    #welcome-section{
+        width: 86vh;
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    #img1{
+        width: 120vw;
+        height: 100%;
+        padding-left:15vw;
+       
+    }
+   
+    #text{
+        
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        text-align: left;
+        width: 104vw;
+        height:20vh;
+        
+        
+    }
+     .h2{
+        font-size: 6vw;
+        margin-left: auto;
+        text-align:left;
+        margin-top:auto;
+        margin-bottom: auto;
+        margin-right: auto;
+        padding-left:4vh;
+        display:inline;
+    }
+    .h1{
+      text-align: left;
+      font-size: 6vw;
+      display: inline;
+      justify-content: center;
+        align-items: center;
+        margin-top: 0vh;
+        padding-left:4vh;
+    }
+    
+   
+    #projects{
+        width: 86vh;
+        height: 100vh;
+        
+    }
+    .projects-section,.projects-section1{
+        width: 80vh;
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        
+        
+    }
+    .project-tile{
+        width: 10vh;
+        height: 20vh;
+    }
+    #projects h2{
+        font-size: 7vw;
+    }
+    .img2{
+        width:22vw;
+    }
+
+    #projects a{
+        font-size: 4.5vw;
+    }
+    #contact{
+        width:86vh;
+        height: 25vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    #email,#linkedin,#github,#fcc{
+        margin: 2vh ;
+        width: 12vh;
+        height: 12vh;
+        align-items: center;
+        
+        
+    }
+    #rsm1,#rsm2,#github-logo{
+        width: 8vh;
+        height: 8vh;
+    }
+    #fccr{
+        width: 9vh;
+        height: 1.5vh;
+    }
+    #contact-link{
+     margin-top: 0vh;
+    } 
+}
+
+@media screen and (min-device-width: 540px) and (max-device-width: 912px) {
+    .ulnav {
+        font-size: 4vh;
+        justify-content: space-evenly;
+        align-items: center;
+    
+
+    }
+    .ulnav a{
+        font-size: 4vh; 
+    }
+    .ulnav li{
+        padding: 0vh;
+    }
+
+    #welcome-section{
+        width: 100vh;
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+   
+    #text{
+        font-size: 4vh;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        text-align: left;
+        width:100vw ;
+        
+        
+    }
+     .h2{
+        font-size: 4vh;
+        margin-left: auto;
+        text-align:left;
+        margin-top:auto;
+        margin-bottom: auto;
+        margin-right: auto;
+        padding-left:4vh;
+        display:inline;
+    }
+    .h1{
+      text-align: left;
+      font-size: 4vh;
+      display: inline;
+      justify-content: center;
+        align-items: center;
+        margin-top: 0vh;
+        padding-left:4vh;
+    }
+    
+    #img1{
+        padding-left:15vh;
+        width: 110vw;
+        height: 100%;
+        
+       
+       
+    }
+    #projects{
+        width: 100vh;
+        height: 100vh;
+        
+    }
+    .projects-section,.projects-section1{
+        width: 98vh;
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        
+        
+    }
+    .img2{
+        width: 20vw;
+       
+    }
+    .project-tile{
+        width: 10vh;
+        height: 20vh;
+    }
+    #projects h2{
+        font-size: 4vh;
+    }
+    #projects a{
+        font-size: 3vw;
+    }
+    #contact{
+        width:100vh;
+        height: 25vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    #email,#linkedin,#github,#fcc{
+        margin: 2vh ;
+        width: 12vh;
+        height: 12vh;
+        align-items: center;
+        
+        
+    }
+    #rsm1,#rsm2,#github-logo{
+        width: 8vh;
+        height: 8vh;
+    }
+    #fccr{
+        width: 10vh;
+        height: 1.2vh;
+    }
+    #contact-link{
+     margin-top: 0vh;
+    } 
+}
+
+@media screen and (min-device-width: 913px) and (max-device-width: 1280px) {
+    .ulnav {
+        font-size: 4vh;
+        justify-content: space-evenly;
+        align-items: center;
+    
+
+    }
+    .ulnav a{
+        font-size: 4vh; 
+    }
+    .ulnav li{
+        padding: 0vh;
+    }
+
+    #welcome-section{
+        width: 101%;
+        height: 80vh;
+        display: flex;
+        flex-direction: row;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+   
+    #text{
+        font-size: 4vh;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        text-align: left;
+        
+        
+    }
+     .h2{
+        font-size: 4vh;
+        margin-left: auto;
+        text-align:left;
+        margin-top:auto;
+        margin-bottom: auto;
+        margin-right: auto;
+        padding-left:4vh;
+        display:inline;
+    }
+    .h1{
+      text-align: left;
+      font-size: 4vh;
+      display: inline;
+      justify-content: center;
+        align-items: center;
+        margin-top: 0vh;
+        padding-left:4vh;
+    }
+    
+    #img1{
+        padding-left:15vh;
+        width: 90vh;
+        height: 45vh;
+    }
+    #projects{
+        width: 101%;
+        height: 100vh;
+        
+    }
+    .projects-section,.projects-section1{
+        width: 98%;
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        
+        
+    }
+    .project-tile{
+        width: 10vh;
+        height: 20vh;
+    }
+    #contact{
+        width:101%;
+        height: 30vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    #email,#linkedin,#github,#fcc{
+        margin: 2vh ;
+        width: 13vh;
+        height: 13vh;
+        align-items: center;
+        
+        
+    }
+    #rsm1,#rsm2,#github-logo{
+        width: 8vh;
+        height: 8vh;
+    }
+    #fccr{
+        width: 12vh;
+        height: 1.9vh;
+    }
+    #contact-link{
+     margin-top: 0vh;
+    } 
+}
